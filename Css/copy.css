@@ -1,0 +1,733 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Start Home */
+#Home {
+    background-image: url(../Images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#Home .nav-link {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+#Home .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+}
+#Home .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+#Home .overlay h1 {
+    margin-bottom: 30px;
+}
+#Home .home-info h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 55px;
+}
+#Home .home-info h1 {
+    font-size: 60px;
+    line-height: 72px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    position: relative;
+    right: 150px;
+}
+.home-info h1::after {
+    content: '|';
+    position: absolute;
+    font-size: 60px;
+    left: 80%;
+    transform: translateX(-50%,-50%);
+    height: 10px;
+    width: 5px;
+    color: white;
+    animation-name: Typing;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes Typing {
+    2% {content:'F|';}
+    4% {content:'Fr|';}
+    6% {content:'Fre|';}
+    8% {content:'Free|';}
+    10% {content:'Freel|';}
+    12% {content:'Freela|';}
+    14% {content:'Freelan|';}
+    16% {content:'Freelanc|';}
+    18% {content:'Freelance|';}
+    20% {content:'Freelancer|';}
+    22% {content:'Freelance|';}
+    24% {content:'Freelanc|';}
+    26% {content:'Freelan|';}
+    28% {content:'Freela|';}
+    30% {content:'Freel|';}
+    32% {content:'Free|';}
+    34% {content:'Fre|';}
+    36% {content:'Fr|';}
+    38% {content:'F|';}
+    40% {content:'P|';}
+    42% {content:'Po|';}
+    44% {content:'Pho|';}
+    46% {content:'Phot|';}
+    48% {content:'Photo|';}
+    50% {content:'Photog|';}
+    52% {content:'Photogh|';}
+    54% {content:'Photoghr|';}
+    56% {content:'Photoghra|';}
+    58% {content:'Photoghrap|';}
+    60% {content:'Photoghrape|';}
+    62% {content:'Photoghraper|';}
+    64% {content:'Photoghrape|';}
+    66% {content:'Photoghrap|';}
+    68% {content:'Photoghra|';}
+    70% {content:'Photoghr|';}
+    72% {content:'Photogh|';}
+    74% {content:'Photog|';}
+    76% {content:'Photo|';}
+    78% {content:'Phot|';}
+    82% {content:'Pho|';}
+    84% {content:'Ph|';}
+    85% {content:'P|';}
+    86% {content:'D|';}
+    87% {content:'De|';}
+    88% {content:'Des|';}
+    89% {content:'Desi|';}
+    90% {content:'Desig|';}
+    91% {content:'Design|';}
+    92% {content:'Designe|';}
+    93% {content:'Designer|';}
+    94% {content:'Designe|';}
+    95% {content:'Design|';}
+    96% {content:'Desig|';}
+    97% {content:'Desi|';}
+    98% {content:'Des|';}
+    99% {content:'De|';}
+    100% {content:'D|';}
+}
+#Home .icons a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    margin: 20px 10px !important;
+    padding: 10px;
+}
+#Home .icons a i {
+    padding-left: 2px !important;
+}
+@media screen and (max-width:600px) {
+    #Home .home-info h1 {
+        font-size: 50px;
+    }
+    .home-info h1::after {
+        font-size: 50px;
+    }
+}
+/* End Home */
+
+/* Start About */
+#About .about-img img {
+    width: 100%;
+}
+#About .about-img {
+    position: relative;
+    z-index: 3;
+}
+#About .about-img::after {
+    content: '';
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    right: 100px;
+    bottom: -20px;
+    background-image: url(../Images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+#About .about-info .skills{
+    width: 95%;
+    background-color: #f7f7f7;
+    box-shadow: 0px 2px 7px rgb(0 0 0 / 15%);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 35px;
+}
+#About .about-info h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+}
+#About .about-info .ui-ux {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+}
+#About .about-info p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #748182;
+}
+#About .about-info p span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #748182;
+}
+#About .about-info .skills .Web-design{
+    width: 90%;
+    background-color: black;
+    height: 5%;
+    border-radius: 5px;
+    height: inherit;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#About .about-info .skills .Branding{
+    width: 70%;
+    background-color: black;
+    height: 5%;
+    border-radius: 5px;
+    height: inherit;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#About .about-info .skills .Devlopment{
+    width: 85%;
+    background-color: black;
+    height: 5%;
+    border-radius: 5px;
+    height: inherit;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#About .about-info .skills .colr-white {
+    color: white;
+}
+#About .about-info .btns {
+    margin-top: 50px !important;
+}
+#About .about-info .btn-1 {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+#About .about-info .btn-1:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+#About .about-info .btn-2 {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+#About .about-info .btn-2:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+@media screen and (max-width:600px) {
+    #About .about-info {
+        margin-top: 50px;
+    }
+    #About .about-img::after {
+        right: 120px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+    #About .about-info {
+        margin-top: 50px;
+    }
+    #About .about-img::after {
+        right: 120px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    #About .about-info {
+        margin-top: 50px;
+    }
+    #About .about-img::after {
+        right: 170px;
+    }
+}
+/* End About */
+
+
+/* Start Services */
+#Services {
+    background-color: #f7f7f7;
+}
+#Services .serv-card {
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 10%);
+}
+#Services .service-head h2 {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 555;
+}
+#Services .service-head h2::after {
+    content: '';
+    width: 20%;
+    height: 30px;
+    background-image: url(../Images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    transform: translateX(50%);
+    left: 450px;
+    z-index: -1;
+}
+#Services .serv-card:hover span {
+    background-color: black;
+    border: 1px solid black;
+}
+#Services .serv-card:hover i {
+    color: white;
+}
+#Services .serv-card span {
+    font-size: 1.5rem;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    border: 1px solid #f4f4f4;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+#Services .serv-card h3 {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #343434;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+#Services .serv-card p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #748182;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (max-width:600px) {
+    #Services .service-head h2::after {
+        left: 160px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+    #Services .service-head h2::after {
+        left: 220px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    #Services .service-head h2::after {
+        left: 220px;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+    #Services .service-head h2::after {
+        left: 300px;
+    }
+}
+@media screen and (min-width:1200px){
+    #Services .service-head h2::after {
+        left: 360px;
+    }
+}
+/* End Services */
+
+
+
+/* Start Portfolio */
+#Portfolio .portoflio-head h2 {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+#Portfolio .portoflio-head h2::after {
+    content: '';
+    width: 20%;
+    height: 30px;
+    background-image: url(../Images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    transform: translateX(50%);
+    left: 380px;
+    z-index: -1;
+}
+#Portfolio .nav-link {
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    line-height: 23px;
+    position: relative;
+}
+#Portfolio .nav-pills .nav-link.active {
+    background-color: transparent;
+}
+#Portfolio .portflio-item .layer {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    transition: all .5s;
+    z-index: 2;
+    transform: translateY(10px);
+}
+#Portfolio .portflio-item:hover .layer {
+    background-color: #fff;
+    opacity: 1 !important;
+}
+#Portfolio .portflio-item:hover p {
+    color: black;
+}
+#Portfolio .portflio-item:hover .layer-deatils{
+    opacity: 1;
+}
+#Portfolio .portflio-item:hover .layer-deatils i{
+    margin-left: 20px !important;
+}
+@media screen and (max-width:600px) {
+    #Portfolio .portoflio-head h2::after {
+        left: 150px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+    #Portfolio .portoflio-head h2::after {
+        left: 220px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    #Portfolio .portoflio-head h2::after {
+        left: 190px;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+    #Portfolio .portoflio-head h2::after {
+        left: 270px;
+    }
+}
+@media screen and (max-width:1200) {
+    #Portfolio .portoflio-head h2::after {
+        left: 340px;
+    }
+}
+/* End Portfolio */
+
+
+
+
+
+/* Start Clients */
+#Clients {
+    background-color: #f7f7f7;
+}
+#Clients .clients-head h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 44px;
+    position: relative;
+    z-index: 5;
+}
+#Clients .clients-head h2::after {
+    content: '';
+    width: 20%;
+    height: 30px;
+    background-image: url(../Images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    transform: translateX(50%);
+    left: 380px;
+    z-index: -5;
+}
+#Clients .btn-circle button {
+    border-radius: 50%;
+    padding: 5px;
+    width: 5px;
+}
+#Clients .client-sora {
+    height: 100px;
+}
+#Clients .clients-details p {
+    padding: 0 60px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #748182;
+}
+#Clients .clients-details h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 18px;
+    color: #343434;
+}
+#Clients .clients-details span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #888888;
+}
+@media screen and (max-width:600px) {
+    #Clients .clients-head h2::after {
+        left: 150px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+    #Clients .clients-head h2::after {
+        left: 220px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    #Clients .clients-head h2::after{
+        left: 190px;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+    #Clients .clients-head h2::after {
+        left: 270px;
+    }
+}
+@media screen and (max-width:1200) {
+    #Clients .clients-head h2::after {
+        left: 340px;
+    }
+}
+/* End Clients */
+
+/* Start Counting */
+#Counting .bigp {
+    margin-top: 20px;
+}
+/* End Counting */
+
+
+
+/* Start Blog */
+#Blog {
+    background-color: #f7f7f7;
+}
+#Blog .blog-head h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 44px;
+    position: relative;
+    z-index: 4;
+}
+#Blog .blog-head h2::after {
+    content: '';
+    width: 20%;
+    height: 30px;
+    background-image: url(../Images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    transform: translateX(50%);
+    left: 450px;
+    z-index: -5;
+}
+#Blog .card-body {
+    position: relative;
+}
+#Blog .card-body h5 {
+    color: #888888;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 13px;
+}
+#Blog .card {
+    transition: all 0.3s ease-in-out;
+}
+#Blog .card:hover img {
+    transform: scale(1.1);
+}
+#Blog .card-body a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 32px;
+    color: #343434;
+}
+#Blog .card-body .Read-that {
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+    color: #343434;
+    font-weight: 400;
+    position: absolute;
+    bottom: -15px;
+}
+@media screen and (max-width:600px) {
+    #Blog .blog-head h2::after {
+        left: 150px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+    #Blog .blog-head h2::after {
+        left: 220px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    #Blog .blog-head h2::after{
+        left: 270px;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+    #Blog .blog-head h2::after {
+        left: 350px;
+    }
+}
+@media screen and (max-width:1200) {
+    #Blog .blog-head h2::after {
+        left: 350px;
+    }
+}
+/* End Blog */
+
+
+/* Start Contact */
+#Contact .contact-head h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 44px;
+    position: relative;
+}
+#Contact .contact-head h2::after {
+    content: '';
+    width: 20%;
+    height: 30px;
+    background-image: url(../Images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    transform: translateX(50%);
+    left: 380px;
+    z-index: -5;
+}
+#Contact .last-icns {
+    margin-left: 50px !important;
+}
+#Contact .our-location {
+    padding: 30px 50px;
+}
+#Contact .our-location span {
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+#Contact .our-location:hover span {
+    background-color: black;
+}
+#Contact .our-location:hover i {
+    color: white;
+}
+#Contact .our-location h3 {
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #343434;
+    margin-top: 30px;
+}
+#Contact .our-location p {
+    color: #748182;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#Contact .contactwus input {
+    background-color: #f7f7f7;
+}
+#Contact .contactwus textarea {
+    background-color: #f7f7f7;
+}
+#Contact .send-msg a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+#Contact .send-msg:hover a {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+@media screen and (max-width:600px) {
+    #Contact .contact-head h2::after {
+        left: 150px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+    #Contact .contact-head h2::after {
+        left: 150px;
+    }
+    #Contact .contactwus input {
+        width: 100%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    #Contact .contact-head h2::after{
+        left: 220px;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+    #Contact .contact-head h2::after {
+        left: 350px;
+    }
+}
+@media screen and (max-width:1200) {
+    #Contact .contact-head h2::after {
+        left: 350px;
+    }
+}
+/* End Contact */
